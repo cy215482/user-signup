@@ -62,9 +62,9 @@ def signup():
             )
 
 
-@app.route()
-def welcomepage():
-    return render_template('welcomepage.html', title = "Welcome Page")
+#@app.route()
+$#def welcomepage():
+#    return render_template('welcomepage.html', title = "Welcome Page")
  
 app.run()
 
