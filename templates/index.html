@@ -1,11 +1,8 @@
-﻿<!DOCTYPE html>
+﻿{% extends 'homepage.html' %}
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
+{% block content %}
 <body>
+
     <div class="container wow fadeIn" data-wow-duration="3s" data-wow-delay="0.25s">
 
         <div class="form-wrapper">
@@ -30,5 +27,16 @@
 
                 <input type="submit" name="submit" value="Sign Up">
 
+            </form>
+
+            <p>Already have an account? <a href="/">Sign In</a></p>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+    </div>
+
 </body>
-</html>
+{% endblock %}

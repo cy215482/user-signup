@@ -69,6 +69,7 @@ app.run()
 
 
 #add a welcome page app route 
-# add the end block thing 
+# add the end block thing  
+    #done
 #link up templates 
 # fix homepage
