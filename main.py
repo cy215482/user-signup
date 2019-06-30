@@ -64,7 +64,8 @@ def signup():
 
 @app.route()
 def welcomepage():
-    return 
+    return render_template('welcomepage.html', title = "Welcome Page")
+ 
 app.run()
 
 
@@ -72,4 +73,6 @@ app.run()
 # add the end block thing  
     #done
 #link up templates 
+    #done
 # fix homepage
+    #done
